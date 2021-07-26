@@ -6,7 +6,9 @@
 
 #ifdef MKS_WIFI
 
-#define DMA_TIMEOUT 0xfffffff
+#define SHOW_PROGRESS
+
+#define DMA_TIMEOUT 0x0ffffff
 #define ESP_PACKET_SIZE     1024
 
 //Под буфер для DMA два последних КБ из буфера
